@@ -240,6 +240,7 @@ void Test::LaunchBomb()
 	b2Vec2 p(RandomFloat(-15.0f, 15.0f), 30.0f);
 	b2Vec2 v = -5.0f * p;
 	LaunchBomb(p, v);
+	LaunchBomb(p, v);
 }
 
 void Test::LaunchBomb(const b2Vec2& position, const b2Vec2& velocity)
